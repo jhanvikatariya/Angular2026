@@ -1,0 +1,17 @@
+In Angular, Interpolation is the simplest way to display the data from the component (typescript) into view (HTML template)
+-> component -> view 
+{{value}}
+This means (Take the variable called value from the component and show it in the HTML)
+
+In angular, Property binding is used to send the data from the component > view and bind it to HTML element
+[property] = value
+
+In angular, Event binding is used to send data from view - component when user perofrms an action click, keyup, submit, etc..
+(event)="method()"
+
+In angular, two way binding means data flows both the ways
+component to view,
+view to component
+
+When the user types in the UI, the component variable update
+When the variable changes, the UI updates automatically

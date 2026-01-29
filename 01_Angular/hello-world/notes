@@ -1,0 +1,34 @@
+HTML -> View
+TS -> Logic
+CSS -> Design
+
+Angular Components
+
+Angular apps are built using Components
+
+Component has 3 parts
+HTML -> UI
+Typescript -> Logic
+CSS -> Design
+
+Component is reusable
+We can use it multiple times
+
+> ng generate component component-name
+
+Custom component tag
+<app-component-name>
+
+Interpolation connects ts to HTML
+{{variable}}
+
+Project Structure
+
+src -> main app
+app -> components folder
+node_modules -> liabraries
+angular.json -> project settings
+
+
+
+
